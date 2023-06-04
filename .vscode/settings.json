@@ -1,0 +1,10 @@
+{
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "prettier.tabWidth": 4,
+  "prettier.configPath": ".prettierrc.json",
+  "javascript.suggest.includeCompletionsForImportStatements": false,
+  "javascript.suggest.autoImports": false,
+  "typescript.suggest.autoImports": false,
+  "typescript.suggest.includeCompletionsForImportStatements": false
+}

@@ -1,0 +1,44 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"noEmit": true,
+		"esModuleInterop": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "preserve",
+		"incremental": true,
+		"plugins": [
+			{
+				"name": "next"
+			}
+		],
+		"baseUrl": ".",
+		"paths": {
+			"@app/*": ["./app/*"],
+			"@api/*": ["./pages/api/*"],
+			"@template/*": ["./components/template/*"],
+			// "@/*": ["./*"],
+			"@storage/*": ["./storage/*"],
+			"@helpers/*": ["./helpers/*"],
+			"@services/*": ["./services/*"],
+			"@pendapatan/*": ["./components/pendapatan/*"],
+			"@billing/*": ["./components/billing/*"],
+			"@ikhtisartahunan/*": ["./components/ikhtisartahunan/*"],
+			"@angsuran/*": ["./components/angsuran/*"],
+			"@datapelanggan/*": ["./components/datapelanggan/*"],
+			"@pemakaian/*": ["./components/pemakaian/*"],
+			"@detailsaldo/*": ["./components/detailsaldo/*"],
+			"@drd/*": ["./components/drd/*"],
+			"@rekair/*": ["./components/rekair/*"]
+		}
+	},
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+	"exclude": ["node_modules"]
+}
